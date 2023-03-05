@@ -8,6 +8,7 @@ const dbConfigQoddi = {
   password: "Qk28*ry9NTw*w8z",
   database: "freedb_comp2350-A01338778",
   multipleStatements: false,
+  namedPlaceholders: true,
 };
 
 const dbConfigLocal = {
@@ -16,6 +17,7 @@ const dbConfigLocal = {
   password: "MySQLtpdls7^*",
   database: "database",
   multipleStatements: false,
+  namedPlaceholders: true,
 };
 
 if (is_qoddi) {
